@@ -6,9 +6,12 @@
 </div>
 <div class="p-4">
     {!! Form::open(['class'=>['action'=>'#']]) !!}
-    {!! Form::label('youtube', 'Search for a video', ['class'=>'form-control']) !!}
+
     {!! Form::text('youtube', '', ['class'=>'form-control','placeholder'=>'search for a video']) !!}
+    <div class="text-center pt-4">
     {!! Form::submit('Search', ['class'=>'btn btn-primary']) !!}
+    </div>
     {!! Form::close() !!}
 </div>
+<div id="res"></div>
 @endsection

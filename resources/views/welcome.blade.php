@@ -22,6 +22,9 @@
 
       @include('nav.footer')
       <div id="app"></div>
+      <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+      <script src="https://apis.google.com/js/client.js"></script>
 </body>
 </html>
+
 
