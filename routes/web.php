@@ -13,5 +13,6 @@
 
 Route::get('/', function () {
     return view('/youtube');
+
 });
 Route::get('youtube','VideoSearchController@create');
