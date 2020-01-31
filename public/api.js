@@ -12,6 +12,7 @@ $(function(){
             order: "viewCount",
             publishedAfter: "2019-01-01T00:00:00Z"
         });
+        //execute
         request.execute(function(response){
            var res = response.result;
            $.each(res.items, function(i, v){

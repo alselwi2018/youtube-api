@@ -14,7 +14,7 @@ class VideoSearchController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
@@ -24,7 +24,7 @@ class VideoSearchController extends Controller
      */
     public function create()
     {
-       return view('youtube');
+        return view('show-video');
     }
 
     /**

@@ -12,7 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('/youtube');
-
+    return view('show-video');
 });
-Route::get('youtube','VideoSearchController@create');
+Route::get('/video', function(){
+return view('video');
+});
+Route::resource('youtube','VideoSearchController');
