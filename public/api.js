@@ -17,7 +17,7 @@ $(function(){
            var res = response.result;
            $.each(res.items, function(i, v){
 
-            $.get("item.html",function(data){
+            $.get("allVideos.html",function(data){
                 $('#res').append(tplawesome(data, [{"title":v.snippet.title,"videoid":v.id.videoId,"description":v.snippet.description}]));
                 });
 
