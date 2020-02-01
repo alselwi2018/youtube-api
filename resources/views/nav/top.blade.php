@@ -24,7 +24,8 @@
     <div class="container bg-dark text-center">
         <nav class="navbar navbar-expand-lg navbar-light " role="navigation" >
             <div class="container">
-                <a class="navbar-brand navlogo" href="/" ><img srcset="{{ URL('images/youtube.png') }}"></a>
+                <!-- Adding logo image -->
+                <a class="navbar-brand navlogo" href="/" ><img srcset="{{ URL('images/image.gif') }}"> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
