@@ -10,6 +10,6 @@
         </div>
         {!! Form::close() !!}
     </div>
-    //video displays in the below div
+
     <div id="res" class="pt-3"></div>
     @endsection
