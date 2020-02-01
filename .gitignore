@@ -12,4 +12,4 @@ npm-debug.log
 yarn-error.log
 public/item.html
 public/api.js
-resources/views/show-video.blade.php
+
